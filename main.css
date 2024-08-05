@@ -1,0 +1,49 @@
+.box {
+    display: flex;
+    
+    
+    justify-content: space-between;
+  
+    
+
+}
+
+.box-son:first-of-type {
+    width: 35%; 
+   
+  
+
+}
+
+.box-son:nth-of-type(2) {
+    width: 63%; 
+   
+    box-sizing: border-box;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+.box-son:nth-of-type(2) p {
+    background-color: grey;
+    padding: 3px 6px ; 
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+.box-son strong {
+    color: #000; 
+    text-transform: capitalize;
+    margin-right: 5px;
+}
+
+.img {
+    border-radius: 50%;
+}
+.img img {
+    border-radius: 100%;
+    width: 100%; 
+}
+
+
